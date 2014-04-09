@@ -44,7 +44,7 @@
       <controlProperties>
         <align>center</align>
         <size>32</size>
-        <text>%20%0A%20%0A%20%0A%20%0AMain%20Content%20Section</text>
+        <text>%20%0A%20%0A%20%0A%20%0AMain%20Content%20Section%20for%20everything</text>
       </controlProperties>
     </control>
     <control controlID="14" controlTypeID="com.balsamiq.mockups::Label" x="942" y="750" w="-1" h="-1" measuredW="138" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
