@@ -1,4 +1,4 @@
-/*FeedEk jQuery RSS/ATOM Feed Plugin v2.0
+/*FeedEk jQuery RSS/ATOM Feed Plugin v2.0g
 * http://jquery-plugins.net/FeedEk/FeedEk.html  
 * https://github.com/enginkizil/FeedEk
 * Author : Engin KIZIL http://www.enginkizil.com */
