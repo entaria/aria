@@ -4,7 +4,7 @@
     var rssFeed = (function () {
 
         $('#divRss').FeedEk({
-            FeedUrl: 'http://rss.cnn.com/rss/edition.rss',
+            FeedUrl: 'http://www.rte.ie/news/rss/news-headlines.xml',
             MaxCount: 3,
             ShowDesc: true,
             ShowPubDate: false,
