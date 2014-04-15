@@ -1,4 +1,19 @@
 ﻿$(document).ready(function () {
+
+
+    var rssFeed = (function () {
+
+        $('#divRss').FeedEk({
+            FeedUrl: 'http://rss.cnn.com/rss/edition.rss',
+            MaxCount: 3,
+            ShowDesc: true,
+            ShowPubDate: false,
+            DescCharacterLimit: 100
+        });
+    }
+
+    )();
+
     var WeatherData = (function () {
 
         jQuery(document).ready(function ($) {
