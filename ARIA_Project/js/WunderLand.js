@@ -8,11 +8,13 @@
                     strLocation = parsed_json['location']['city'];
                     temp_c = parsed_json['current_observation']['temp_c'];
                     temp_f = parsed_json['current_observation']['temp_f'];
-                    img_date = parse_json['current_observation'][icon_url]
-                 
+                    img_toDisplay = parsed_json['current_observation']['icon_url']
                     $("#resultID").val(temp_f);   //display the Temperature
 
-                    $("#imgresultID").val("http://icons-ak.wxug.com/i/c/k/partlycloudy.gif")
+                    $("#tempValue").val(temp_f);   //display the Temperature
+                    $('#imgresultID').attr('src', img_toDisplay);        // change the weather Icon
+
+                    
                 }
             });
         });
