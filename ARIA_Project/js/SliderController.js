@@ -15,11 +15,11 @@ angular.module('website', ['ngAnimate'])
             return $scope.currentIndex === index;
         };
 
-        $scope.prevSlide = function () {
+        $scope.prev = function () {
             $scope.currentIndex = ($scope.currentIndex < $scope.slides.length - 1) ? ++$scope.currentIndex : 0;
         };
 
-        $scope.nextSlide = function () {
+        $scope.next = function () {
             $scope.currentIndex = ($scope.currentIndex > 0) ? --$scope.currentIndex : $scope.slides.length - 1;
         };
     })
