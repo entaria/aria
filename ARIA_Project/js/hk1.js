@@ -1,4 +1,4 @@
-var QRcode = (function() {
+var jsUtils = (function() {
     // Private stuff up here
 
     // Public methods here
@@ -8,6 +8,10 @@ var QRcode = (function() {
             $('#qrcode').qrcode(options);
        },
     
+       generateQRtable: function(options) {  
+            $('#qrcode').qrcode(options);
+       },
+
        // method 2
        method2: function(operand,num) {     //operand = number to be subtracted, num = number subtracted from
             var op = parseFloat(operand);
@@ -33,7 +37,20 @@ var QRcode = (function() {
                     throw new Error ("Not a number");
                 }
                 return num/op;
-       }
-        
+       },
+
+       validateEmail: function(emailAddress) {
+            var re = new RegExp(/^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/);
+            if (re.test(emailAddress)) {
+                return true;
+            } 
+            else {
+                return false;
+            }
+        }
+
+       
     }
 }());
+
+
