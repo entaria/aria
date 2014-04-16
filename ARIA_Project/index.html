@@ -27,6 +27,9 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 		<script src="js/angular-animate.min.js"></script>
+		
+		<!-- Brendan's Stuff  -->
+        <link href="css/FeedEk.css" rel="stylesheet" type="text/css" />
 
 		
     </head>
@@ -67,9 +70,9 @@
 	  <br />
 
 		<!-- Jumbotron -->
-      <div class="jumbotron">
+      <div class="jumbotron" >
 		<div class="container-slider" ng-controller="SliderController">
-			<img ng-repeat="slide in slides" class="slide slide-animation"
+			<img class="img-responsive" ng-repeat="slide in slides" class="slide slide-animation"
 				ng-hide="!isCurrentSlideIndex($index)" ng-src="{{slide.image}}">
 
 			
@@ -81,13 +84,12 @@
 				<a href="#" ng-click="next()"><img src="img/right-arrow.png"/></a>
 			</div>
 			
-			
 			<div class="slider-info">
-                    <h2 ng-class="{'active':!isCurrentSlideIndex($index)}" class="slide slide-animation" ng-repeat="slide in slides"
+                    <h3 ng-class="{'active':!isCurrentSlideIndex($index)}" class="slide slide-animation" ng-repeat="slide in slides"
                       ng-click="setCurrentSlideIndex($index);" ng-hide="!isCurrentSlideIndex($index)">{{slide.title}}</h2>
 					  
-                    <p ng-class="{'active':!isCurrentSlideIndex($index)}" class="slide slide-animation" ng-repeat="slide in slides"
-                      ng-click="setCurrentSlideIndex($index);" ng-hide="!isCurrentSlideIndex($index)">{{slide.description}}</p>
+                    <png-class="{'active':!isCurrentSlideIndex($index)}" class="slide slide-animation" ng-repeat="slide in slides"
+                      ng-click="setCurrentSlideIndex($index);" ng-hide="!isCurrentSlideIndex($index)">{{slide.description}}
 			</div>
 			
 			
@@ -97,19 +99,20 @@
       <br />
 
       <div class="row marketing">
-        <div class="col-lg-2">
-          <h4>Latest News 1</h4>
+        <div class="col-md-2">
+		 <h3>Blog</h3>
+          <h4>Blog 1</h4>
           <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
 
-          <h4>Latest News 2</h4>
+          <h4>Blog 2</h4>
           <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
 
-          <h4>Latest News 3</h4>
+          <h4>Blog 3</h4>
           <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
         </div>
 
-        <div class="col-lg-8">
-          <h4>Main Content</h4>
+        <div class="col-md-8">
+          <h3>Main Content</h3>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet lectus at quam aliquet porta eu a lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus dapibus pharetra. Proin dolor massa, cursus sed faucibus ac, iaculis quis arcu. Sed sem lacus, aliquet quis diam non, molestie mollis magna. Etiam aliquam vulputate hendrerit. Nullam blandit cursus libero, at viverra odio dapibus vel. Quisque congue sapien a ullamcorper egestas. Cras tincidunt interdum urna, a varius felis sagittis sit amet. Fusce accumsan lectus felis. Quisque porta nisl fringilla, cursus nulla sed, fermentum magna. Aenean venenatis tristique mauris non consectetur.
 
 		Suspendisse lacinia odio eget nunc laoreet euismod. Sed fringilla, massa eu hendrerit varius, tortor leo bibendum libero, non pulvinar leo sapien at arcu. Aenean orci massa, lacinia eu luctus nec, sollicitudin at massa. Pellentesque lobortis id enim ac tincidunt. Mauris eget auctor est. Ut ac dolor elit. Praesent nisi orci, aliquam quis leo in, adipiscing egestas nibh. Suspendisse eget urna venenatis, feugiat odio eget, congue orci. Duis faucibus laoreet neque, nec consequat diam fringilla cursus. Nulla scelerisque laoreet purus ac molestie. Pellentesque fermentum a felis at bibendum. Donec dapibus, velit vitae ultrices adipiscing, massa justo faucibus sem, quis auctor neque tortor consequat nisl. Sed hendrerit nisl eget nibh ultricies pretium.
@@ -121,23 +124,82 @@
 		Sed tincidunt, dolor in tincidunt dignissim, libero lorem egestas nisi, eu commodo elit dolor aliquam tortor. Phasellus sed diam et velit dictum consequat. Integer dui nibh, sagittis vel nisi vitae, tincidunt dignissim odio. Etiam non luctus ligula. Vestibulum mattis, nisi ac volutpat dignissim, eros enim gravida neque, sit amet pellentesque mi purus non diam. Nam id arcu augue. Praesent eget quam et dui tincidunt varius. Vestibulum eleifend vulputate augue ut consequat. Sed ultricies metus odio, ut luctus lacus consectetur at. Lorem ipsum dolor sit amet, consectetur adipiscing elit
         </div>
 		
-		<div class="col-lg-2">
+		<div class="col-md-2">
           <img src="img/advert.jpg" width="160px" height="600px" />
         </div>
-      </div>
 
+	<br />
+		
+	</div>
+		
+		
       <div class="footer">
-        <p>&copy; Entaria 2014</p>
+        <div class="row marketing">
+      
+		  <div class="col-md-3">
+			<!-- HK1 CODE -->
+			  <div class="row section">
+				<div class="span4">
+				<h3 class="section-title">Politics on Twitter</h3>
+			  </div>
+			  <div class="span4 ">
+				<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/IrishTimesPol/oireachtas" data-widget-id="308944666919829505">Tweets from @IrishTimesPol/oireachtas</a>
+				<script>
+				!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				<a href="https://twitter.com/IrishTimesPol" class="twitter-follow-button" data-show-count="false" data-dnt="false">Follow @IrishTimesPol</a>
+				<script>
+				!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			  </div>
+			  <!-- HK1 CODE -->
+			</div>
+			
+			
+		</div>
+		
+		<div class="col-md-3">
+				<div id="weather">
+
+					<h3>Weather </h3>
+					<input id="resultID" type="number" /> 
+							<div class="value" id ="tempValue"></div>
+
+							<input id="imgresultID" type="image" src="http://icons-ak.wxug.com/i/c/k/cloudy.gif"/>
+							<!--        <img id="btmpnl" src ="img\v8liv.PNG" /> -->
+
+				</div>
+			</div>
+			
+		<div class="col-md-3">
+				<h3>News</h3>
+                <div id="divRss">
+					
+				</div>
+                <div class="content">
+              
+				</div>
+		</div>
+		
+		</div>
+		
+		<br />
+
+		</div>
+			<p>&copy; Entaria 2014</p>
       </div>
 
-	 </div>
+	 
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 		<script src="js/SliderController.js"></script>
 		
-		
+		 <!-- Brendan's Stuff  -->
+        <script type="text/javascript" src="http://momentjs.com/downloads/moment-with-langs.min.js"></script>
+		<script type="text/javascript" src="js/vendor/FeedEk.js"></script>
+		<script src="js/WunderLand.js"> </script>
+         <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+         <script src="http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js"
 		
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <!-- <script>

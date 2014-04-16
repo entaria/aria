@@ -2,7 +2,7 @@ angular.module('website', ['ngAnimate'])
     .controller('SliderController', function ($scope) {
         $scope.slides = [
             {image: 'img/coffee_shop_1.jpg', title: "Get Rewards", description: 'You can use your Leap Card in all your favorite shops.'},
-			{image: 'img/coffee_shop_2.jpg', title: "Convenience", description: 'After you walk through the turnstiles, it only a short walk to discounted coffee!'},
+			{image: 'img/coffee_shop_2.jpg', title: "Convenience", description: 'After you walk through the turnstiles, it only a short walk to discounted purchases!'},
             {image: 'img/coffee_shop_3.jpg', title: "One card for all", description: 'Make more room in your wallet and discard all those paper loyalty cards'}
         ];
 		

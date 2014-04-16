@@ -305,21 +305,17 @@ textarea {
 
 .container-slider{
 	position: relative;
-	max-width: 840px;
-	margin: left;
+	max-width: 73.68%;
+	left: 0px;
 }
 
-.container-slider .slide{
-	
-}
-
-.container-slider .slider-info{
+.slider-info{
 	position: absolute;
-	width: 300px;
-	height: 324px;
-	right: -300px;
+	min-width: 30%;
+	max-width: 65%;
+	left: 100%;
 	top: 0px;
-	padding: 10px;
+	padding-left: 10px;
 }
 
 .arrows-left{
