@@ -125,6 +125,7 @@
 		<script src="js/vendor/bootstrap.min.js"></script>
 
         <!-- HK1 CODE -->
+        <script type="text/javascript" src="js/hk1.js"></script>
         <script type="text/javascript" src="js/vendor/jquery.qrcode.js"></script>
         <script type="text/javascript" src="js/vendor/qrcode.js"></script>
         <script>
@@ -134,13 +135,15 @@
             text	: "http://www.ncirl.ie"
             });
         })
+        //jQuery('#output').generateQRcode("hello world hello world");
         </script>
-       <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
+            e.src='http://www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-42936379-2');ga('send','pageview');
         </script>
