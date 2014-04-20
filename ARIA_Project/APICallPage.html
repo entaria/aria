@@ -1,0 +1,36 @@
+﻿!DOCTYPE html>
+
+
+
+<html>
+
+
+    <head lang="en" data-framework="angularjs">
+
+        <link rel ="stylesheet" type ="text/css" href="css/angular.css" />
+        <link rel ="stylesheet" type ="text/css" href="css/angular2.css" />
+        <script src = "js/vendor/angular.min.js"></script> 
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src = "js/CheckBalances.js"></script>
+
+            </head>
+
+    <body>
+
+        <form ng-app ng-controller=" APICallController">
+            <h1>Current Balance</h1>
+            <ul>
+
+                <li ng-repeat="balance in ClientCardBalance.Balances" ng-click="toggleActive(balance)" ng-class="{active:balance.active}">
+			<!-- Notice the use of the currency filter, it will format the price -->
+			{{balance.ClientId}} <span>{{balance.pointbalance.price}}</span>
+		</li>
+               
+
+            </ul>
+
+                    </form>
+
+
+    </body>
+</html>
