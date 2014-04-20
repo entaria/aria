@@ -23,9 +23,9 @@
             <h1>Current Balance</h1>
             <ul>
 
-                <li ng-repeat="balance in ClientCardBalance.Balances" ng-click="toggleActive(balance)" ng-class="{active:balance.active}">
-			<!-- Notice the use of the currency filter, it will format the price -->
-			{{balance.ClientId}} <span>{{balance.pointbalance.price}}</span>
+                <li ng-repeat="balance in Balances" ng-click="toggleActive(balance)">
+			<!-- display points balances for this particular user -->
+			{{balance.ClientId}} <span>{{balance.PointBalance}}</span>
 		</li>
                
 
