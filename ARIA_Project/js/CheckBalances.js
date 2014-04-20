@@ -6,8 +6,9 @@
 
 
    
-    $http.get('http://entarieBOB.azurewebsites.net/api/ccb/GetClientCardBalances').then(function (result) {
-
+       $http.get('http://entariabob.azurewebsites.net/api/ccb/GetClientCardBalances').then(function (result) {
+  //  $.get('http://entariaBOB.azurewebsites.net/api/ccb/GetClientCardBalances').then(function (result) {
+       //    http://entariabob.azurewebsites.net/api/ccb/GetClientCardBalances
         $scope.ClientCardBalances = result.data;
 
        
