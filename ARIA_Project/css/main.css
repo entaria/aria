@@ -303,4 +303,29 @@ textarea {
     }
 }
 
+.container-slider{
+	position: relative;
+	max-width: 73.68%;
+	left: 0px;
+}
 
+.slider-info{
+	position: absolute;
+	min-width: 30%;
+	max-width: 65%;
+	left: 100%;
+	top: 0px;
+	padding-left: 10px;
+}
+
+.arrows-left{
+	position: absolute;
+	top: 40%;
+	left: 0%;
+}
+
+.arrows-right{
+	position: absolute;
+	top: 40%;
+	right: 0%;
+}
