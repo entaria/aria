@@ -1,0 +1,519 @@
+<Events><Event><System><Provider Name="System.ServiceModel 4.0.0.0"/><EventID>3</EventID><Level>3</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-12T13:19:59Z"/><EventRecordID>1492531218</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>System.ServiceModel.Activation.HostedHttpRequestAsyncResult/4032828</Data><Data>System.Web.HttpException (0x80004005): The service '/api/cardws/_vti_bin/ListData.svc' does not exist. ---&gt; System.ServiceModel.EndpointNotFoundException: The service '/api/cardws/_vti_bin/ListData.svc' does not exist.
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.EnsureServiceAvailable(String normalizedVirtualPath, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.ServiceHostingEnvironment.EnsureServiceAvailableFast(String relativeVirtualPath, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.HandleRequest()
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.BeginRequest()
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result)</Data><Data>w3wp</Data><Data>5916</Data></EventData></Event><Event><System><Provider Name="System.ServiceModel 4.0.0.0"/><EventID>3</EventID><Level>3</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-12T13:20:14Z"/><EventRecordID>1492546109</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>System.ServiceModel.Activation.HostedHttpRequestAsyncResult/64828693</Data><Data>System.Web.HttpException (0x80004005): The service '/api/_vti_bin/ListData.svc' does not exist. ---&gt; System.ServiceModel.EndpointNotFoundException: The service '/api/_vti_bin/ListData.svc' does not exist.
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.EnsureServiceAvailable(String normalizedVirtualPath, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.ServiceHostingEnvironment.EnsureServiceAvailableFast(String relativeVirtualPath, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.HandleRequest()
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.BeginRequest()
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result)</Data><Data>w3wp</Data><Data>5916</Data></EventData></Event><Event><System><Provider Name="System.ServiceModel 4.0.0.0"/><EventID>3</EventID><Level>3</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-12T13:20:22Z"/><EventRecordID>1492553984</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>System.ServiceModel.Activation.HostedHttpRequestAsyncResult/10104599</Data><Data>System.Web.HttpException (0x80004005): The service '/api/_vti_bin/ListData.svc' does not exist. ---&gt; System.ServiceModel.EndpointNotFoundException: The service '/api/_vti_bin/ListData.svc' does not exist.
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.EnsureServiceAvailable(String normalizedVirtualPath, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.ServiceHostingEnvironment.EnsureServiceAvailableFast(String relativeVirtualPath, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.HandleRequest()
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.BeginRequest()
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result)</Data><Data>w3wp</Data><Data>5916</Data></EventData></Event><Event><System><Provider Name="System.ServiceModel 4.0.0.0"/><EventID>3</EventID><Level>3</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-12T13:20:37Z"/><EventRecordID>1492569421</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>System.ServiceModel.Activation.HostedHttpRequestAsyncResult/7141266</Data><Data>System.Web.HttpException (0x80004005): The service '/_vti_bin/ListData.svc' does not exist. ---&gt; System.ServiceModel.EndpointNotFoundException: The service '/_vti_bin/ListData.svc' does not exist.
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.EnsureServiceAvailable(String normalizedVirtualPath, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.ServiceHostingEnvironment.EnsureServiceAvailableFast(String relativeVirtualPath, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.HandleRequest()
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.BeginRequest()
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result)</Data><Data>w3wp</Data><Data>5916</Data></EventData></Event><Event><System><Provider Name="System.ServiceModel 4.0.0.0"/><EventID>3</EventID><Level>3</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-12T13:20:49Z"/><EventRecordID>1492581171</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>System.ServiceModel.Activation.HostedHttpRequestAsyncResult/44313942</Data><Data>System.Web.HttpException (0x80004005): The service '/_vti_bin/ListData.svc' does not exist. ---&gt; System.ServiceModel.EndpointNotFoundException: The service '/_vti_bin/ListData.svc' does not exist.
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.EnsureServiceAvailable(String normalizedVirtualPath, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.ServiceHostingEnvironment.EnsureServiceAvailableFast(String relativeVirtualPath, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.HandleRequest()
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.BeginRequest()
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result)</Data><Data>w3wp</Data><Data>5916</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-13T16:28:40Z"/><EventRecordID>1590254343</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>4/13/2014 4:28:40 PM</Data><Data>4/13/2014 4:28:40 PM</Data><Data>481c3be43e7446cd89e61ec157b14639</Data><Data>4</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/253865321/ROOT-1-130418801181878816</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD00155D881AA4</Data><Data></Data><Data>6908</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\entariabob</Data><Data>HttpException</Data><Data>The route URL cannot start with a '/' or '~' character and it cannot contain a '?' character.
+Parameter name: routeUrl
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+The route URL cannot start with a '/' or '~' character and it cannot contain a '?' character.
+Parameter name: routeUrl
+   at System.Web.Routing.RouteParser.Parse(String routeUrl)
+   at System.Web.Mvc.RouteCollectionExtensions.MapRoute(RouteCollection routes, String name, String url, Object defaults, Object constraints, String[] namespaces)
+   at Entaria.RouteConfig.RegisterRoutes(RouteCollection routes)
+   at Entaria.MvcApplication.Application_Start()
+
+</Data><Data>http://entariabob.azurewebsites.net/</Data><Data>/</Data><Data>87.192.234.103</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\entariabob</Data><Data>11</Data><Data>IIS APPPOOL\entariabob</Data><Data>False</Data><Data>   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-13T16:29:09Z"/><EventRecordID>1590282593</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>4/13/2014 4:29:09 PM</Data><Data>4/13/2014 4:29:09 PM</Data><Data>f82b24c39a1944feb633e4087cc3dab7</Data><Data>2</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/253865321/ROOT-2-130418801486313041</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD00155D881AA4</Data><Data></Data><Data>6908</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\entariabob</Data><Data>HttpException</Data><Data>The route URL cannot start with a '/' or '~' character and it cannot contain a '?' character.
+Parameter name: routeUrl
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+The route URL cannot start with a '/' or '~' character and it cannot contain a '?' character.
+Parameter name: routeUrl
+   at System.Web.Routing.RouteParser.Parse(String routeUrl)
+   at System.Web.Mvc.RouteCollectionExtensions.MapRoute(RouteCollection routes, String name, String url, Object defaults, Object constraints, String[] namespaces)
+   at Entaria.RouteConfig.RegisterRoutes(RouteCollection routes)
+   at Entaria.MvcApplication.Application_Start()
+
+</Data><Data>http://entariabob.azurewebsites.net/api/findrfid/4b01010044000704dee94a2b2680</Data><Data>/api/findrfid/4b01010044000704dee94a2b2680</Data><Data>87.192.234.103</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\entariabob</Data><Data>10</Data><Data>IIS APPPOOL\entariabob</Data><Data>False</Data><Data>   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-13T16:30:02Z"/><EventRecordID>1590336375</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>4/13/2014 4:30:02 PM</Data><Data>4/13/2014 4:30:02 PM</Data><Data>f986f79a4cad46fb8e7743e798be991d</Data><Data>2</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/253865321/ROOT-3-130418802023845967</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD00155D881AA4</Data><Data></Data><Data>6908</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\entariabob</Data><Data>HttpException</Data><Data>The route URL cannot start with a '/' or '~' character and it cannot contain a '?' character.
+Parameter name: routeUrl
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+The route URL cannot start with a '/' or '~' character and it cannot contain a '?' character.
+Parameter name: routeUrl
+   at System.Web.Routing.RouteParser.Parse(String routeUrl)
+   at System.Web.Mvc.RouteCollectionExtensions.MapRoute(RouteCollection routes, String name, String url, Object defaults, Object constraints, String[] namespaces)
+   at Entaria.RouteConfig.RegisterRoutes(RouteCollection routes)
+   at Entaria.MvcApplication.Application_Start()
+
+</Data><Data>http://entariabob.azurewebsites.net/</Data><Data>/</Data><Data>87.192.234.103</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\entariabob</Data><Data>11</Data><Data>IIS APPPOOL\entariabob</Data><Data>False</Data><Data>   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-13T16:31:02Z"/><EventRecordID>1590395906</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>4/13/2014 4:31:02 PM</Data><Data>4/13/2014 4:31:02 PM</Data><Data>13d1dfb2e8db4f4dbef394a819ca8460</Data><Data>4</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/253865321/ROOT-4-130418802600039399</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD00155D881AA4</Data><Data></Data><Data>6908</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\entariabob</Data><Data>HttpException</Data><Data>The route URL cannot start with a '/' or '~' character and it cannot contain a '?' character.
+Parameter name: routeUrl
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+The route URL cannot start with a '/' or '~' character and it cannot contain a '?' character.
+Parameter name: routeUrl
+   at System.Web.Routing.RouteParser.Parse(String routeUrl)
+   at System.Web.Mvc.RouteCollectionExtensions.MapRoute(RouteCollection routes, String name, String url, Object defaults, Object constraints, String[] namespaces)
+   at Entaria.RouteConfig.RegisterRoutes(RouteCollection routes)
+   at Entaria.MvcApplication.Application_Start()
+
+</Data><Data>http://entariabob.azurewebsites.net/</Data><Data>/</Data><Data>87.192.234.103</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\entariabob</Data><Data>19</Data><Data>IIS APPPOOL\entariabob</Data><Data>False</Data><Data>   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-13T16:36:46Z"/><EventRecordID>1590740390</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>4/13/2014 4:36:46 PM</Data><Data>4/13/2014 4:36:46 PM</Data><Data>1798fa4bd571492bb702652f75269d55</Data><Data>4</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/253865321/ROOT-7-130418806044129725</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD00155D881AA4</Data><Data></Data><Data>6908</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\entariabob</Data><Data>HttpException</Data><Data>The route URL cannot start with a '/' or '~' character and it cannot contain a '?' character.
+Parameter name: routeUrl
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+The route URL cannot start with a '/' or '~' character and it cannot contain a '?' character.
+Parameter name: routeUrl
+   at System.Web.Routing.RouteParser.Parse(String routeUrl)
+   at System.Web.Mvc.RouteCollectionExtensions.MapRoute(RouteCollection routes, String name, String url, Object defaults, Object constraints, String[] namespaces)
+   at Entaria.RouteConfig.RegisterRoutes(RouteCollection routes)
+   at Entaria.MvcApplication.Application_Start()
+
+</Data><Data>http://entariabob.azurewebsites.net/</Data><Data>/</Data><Data>87.192.234.103</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\entariabob</Data><Data>23</Data><Data>IIS APPPOOL\entariabob</Data><Data>False</Data><Data>   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-13T16:42:44Z"/><EventRecordID>1591097484</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>4/13/2014 4:42:43 PM</Data><Data>4/13/2014 4:42:43 PM</Data><Data>4405b3bb4c8d4ae0b6645b2fd05a9c3b</Data><Data>2</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/253865321/ROOT-8-130418809635244295</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD00155D881AA4</Data><Data></Data><Data>6908</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\entariabob</Data><Data>HttpException</Data><Data>The route URL cannot start with a '/' or '~' character and it cannot contain a '?' character.
+Parameter name: routeUrl
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+The route URL cannot start with a '/' or '~' character and it cannot contain a '?' character.
+Parameter name: routeUrl
+   at System.Web.Routing.RouteParser.Parse(String routeUrl)
+   at System.Web.Mvc.RouteCollectionExtensions.MapRoute(RouteCollection routes, String name, String url, Object defaults, Object constraints, String[] namespaces)
+   at Entaria.RouteConfig.RegisterRoutes(RouteCollection routes)
+   at Entaria.MvcApplication.Application_Start()
+
+</Data><Data>http://entariabob.azurewebsites.net/api/cws/2</Data><Data>/api/cws/2</Data><Data>87.192.234.103</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\entariabob</Data><Data>36</Data><Data>IIS APPPOOL\entariabob</Data><Data>False</Data><Data>   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-17T13:08:57Z"/><EventRecordID>1923875093</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>4/17/2014 1:08:57 PM</Data><Data>4/17/2014 1:08:57 PM</Data><Data>02cf5c29774a4c81aae4be8f2c58ce4f</Data><Data>4</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/253865321/ROOT-1-130422137342669361</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD00155D881AA4</Data><Data></Data><Data>3608</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\entariabob</Data><Data>HttpException</Data><Data>The route parameter name 'value' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+The route parameter name 'value' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.Routing.RouteParser.Parse(String routeUrl)
+   at System.Web.Http.WebHost.Routing.HostedHttpRoute..ctor(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.WebHost.Routing.HostedHttpRouteCollection.CreateRoute(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.HttpRouteCollectionExtensions.MapHttpRoute(HttpRouteCollection routes, String name, String routeTemplate, Object defaults, Object constraints, HttpMessageHandler handler)
+   at Entaria.WebApiConfig.Register(HttpConfiguration config)
+   at Entaria.MvcApplication.Application_Start()
+
+</Data><Data>http://entariabob.azurewebsites.net/</Data><Data>/</Data><Data>87.192.234.103</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\entariabob</Data><Data>7</Data><Data>IIS APPPOOL\entariabob</Data><Data>False</Data><Data>   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-17T13:13:30Z"/><EventRecordID>1924148625</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>4/17/2014 1:13:30 PM</Data><Data>4/17/2014 1:13:30 PM</Data><Data>9988f4f91b3e4e129a1706dfca964403</Data><Data>4</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/253865321/ROOT-2-130422140081410080</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD00155D881AA4</Data><Data></Data><Data>3608</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\entariabob</Data><Data>HttpException</Data><Data>The route parameter name 'value' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+The route parameter name 'value' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.Routing.RouteParser.Parse(String routeUrl)
+   at System.Web.Http.WebHost.Routing.HostedHttpRoute..ctor(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.WebHost.Routing.HostedHttpRouteCollection.CreateRoute(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.HttpRouteCollectionExtensions.MapHttpRoute(HttpRouteCollection routes, String name, String routeTemplate, Object defaults, Object constraints, HttpMessageHandler handler)
+   at Entaria.WebApiConfig.Register(HttpConfiguration config)
+   at Entaria.MvcApplication.Application_Start()
+
+</Data><Data>http://entariabob.azurewebsites.net/</Data><Data>/</Data><Data>87.192.234.103</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\entariabob</Data><Data>25</Data><Data>IIS APPPOOL\entariabob</Data><Data>False</Data><Data>   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-17T13:13:42Z"/><EventRecordID>1924160406</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>4/17/2014 1:13:42 PM</Data><Data>4/17/2014 1:13:42 PM</Data><Data>95ce68f0d6a64948b93db7b67581a8e1</Data><Data>2</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/253865321/ROOT-3-130422140219545470</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD00155D881AA4</Data><Data></Data><Data>3608</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\entariabob</Data><Data>HttpException</Data><Data>The route parameter name 'value' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+The route parameter name 'value' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.Routing.RouteParser.Parse(String routeUrl)
+   at System.Web.Http.WebHost.Routing.HostedHttpRoute..ctor(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.WebHost.Routing.HostedHttpRouteCollection.CreateRoute(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.HttpRouteCollectionExtensions.MapHttpRoute(HttpRouteCollection routes, String name, String routeTemplate, Object defaults, Object constraints, HttpMessageHandler handler)
+   at Entaria.WebApiConfig.Register(HttpConfiguration config)
+   at Entaria.MvcApplication.Application_Start()
+
+</Data><Data>http://entariabob.azurewebsites.net/</Data><Data>/</Data><Data>87.192.234.103</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\entariabob</Data><Data>19</Data><Data>IIS APPPOOL\entariabob</Data><Data>False</Data><Data>   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-17T13:16:01Z"/><EventRecordID>1924299718</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>4/17/2014 1:16:01 PM</Data><Data>4/17/2014 1:16:01 PM</Data><Data>37a4f7ffc6694a6b8e37edab323c631c</Data><Data>4</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/253865321/ROOT-4-130422141593013550</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD00155D881AA4</Data><Data></Data><Data>3608</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\entariabob</Data><Data>HttpException</Data><Data>The route parameter name 'value' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+The route parameter name 'value' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.Routing.RouteParser.Parse(String routeUrl)
+   at System.Web.Http.WebHost.Routing.HostedHttpRoute..ctor(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.WebHost.Routing.HostedHttpRouteCollection.CreateRoute(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.HttpRouteCollectionExtensions.MapHttpRoute(HttpRouteCollection routes, String name, String routeTemplate, Object defaults, Object constraints, HttpMessageHandler handler)
+   at Entaria.WebApiConfig.Register(HttpConfiguration config)
+   at Entaria.MvcApplication.Application_Start()
+
+</Data><Data>http://entariabob.azurewebsites.net/</Data><Data>/</Data><Data>87.192.234.103</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\entariabob</Data><Data>19</Data><Data>IIS APPPOOL\entariabob</Data><Data>False</Data><Data>   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-17T13:16:29Z"/><EventRecordID>1924327078</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>4/17/2014 1:16:29 PM</Data><Data>4/17/2014 1:16:29 PM</Data><Data>cdd0be8c47fb44c6bbd18718c866ce40</Data><Data>2</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/253865321/ROOT-5-130422141885469917</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD00155D881AA4</Data><Data></Data><Data>3608</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\entariabob</Data><Data>HttpException</Data><Data>The route parameter name 'value' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+The route parameter name 'value' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.Routing.RouteParser.Parse(String routeUrl)
+   at System.Web.Http.WebHost.Routing.HostedHttpRoute..ctor(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.WebHost.Routing.HostedHttpRouteCollection.CreateRoute(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.HttpRouteCollectionExtensions.MapHttpRoute(HttpRouteCollection routes, String name, String routeTemplate, Object defaults, Object constraints, HttpMessageHandler handler)
+   at Entaria.WebApiConfig.Register(HttpConfiguration config)
+   at Entaria.MvcApplication.Application_Start()
+
+</Data><Data>http://entariabob.azurewebsites.net/</Data><Data>/</Data><Data>87.192.234.103</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\entariabob</Data><Data>34</Data><Data>IIS APPPOOL\entariabob</Data><Data>False</Data><Data>   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-17T13:17:09Z"/><EventRecordID>1924367875</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>4/17/2014 1:17:09 PM</Data><Data>4/17/2014 1:17:09 PM</Data><Data>d3376e5ae5754e5f83e9a328edd88e50</Data><Data>2</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/253865321/ROOT-6-130422142293974462</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD00155D881AA4</Data><Data></Data><Data>3608</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\entariabob</Data><Data>HttpException</Data><Data>The route parameter name 'value' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+The route parameter name 'value' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.Routing.RouteParser.Parse(String routeUrl)
+   at System.Web.Http.WebHost.Routing.HostedHttpRoute..ctor(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.WebHost.Routing.HostedHttpRouteCollection.CreateRoute(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.HttpRouteCollectionExtensions.MapHttpRoute(HttpRouteCollection routes, String name, String routeTemplate, Object defaults, Object constraints, HttpMessageHandler handler)
+   at Entaria.WebApiConfig.Register(HttpConfiguration config)
+   at Entaria.MvcApplication.Application_Start()
+
+</Data><Data>http://entariabob.azurewebsites.net/</Data><Data>/</Data><Data>87.192.234.103</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\entariabob</Data><Data>36</Data><Data>IIS APPPOOL\entariabob</Data><Data>False</Data><Data>   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-17T13:17:39Z"/><EventRecordID>1924397671</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>4/17/2014 1:17:39 PM</Data><Data>4/17/2014 1:17:39 PM</Data><Data>d57165a5183d40e987cebf310effda5e</Data><Data>4</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/253865321/ROOT-7-130422142572192699</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD00155D881AA4</Data><Data></Data><Data>3608</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\entariabob</Data><Data>HttpException</Data><Data>The route parameter name 'value' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+The route parameter name 'value' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.Routing.RouteParser.Parse(String routeUrl)
+   at System.Web.Http.WebHost.Routing.HostedHttpRoute..ctor(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.WebHost.Routing.HostedHttpRouteCollection.CreateRoute(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.HttpRouteCollectionExtensions.MapHttpRoute(HttpRouteCollection routes, String name, String routeTemplate, Object defaults, Object constraints, HttpMessageHandler handler)
+   at Entaria.WebApiConfig.Register(HttpConfiguration config)
+   at Entaria.MvcApplication.Application_Start()
+
+</Data><Data>http://entariabob.azurewebsites.net/</Data><Data>/</Data><Data>87.192.234.103</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\entariabob</Data><Data>45</Data><Data>IIS APPPOOL\entariabob</Data><Data>False</Data><Data>   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-17T13:19:24Z"/><EventRecordID>1924502937</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>4/17/2014 1:19:24 PM</Data><Data>4/17/2014 1:19:24 PM</Data><Data>0a60dd4215a648e3a12aeb20e59f37c6</Data><Data>4</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/253865321/ROOT-8-130422143625213225</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD00155D881AA4</Data><Data></Data><Data>3608</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\entariabob</Data><Data>HttpException</Data><Data>The route parameter name 'value' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+The route parameter name 'value' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.Routing.RouteParser.Parse(String routeUrl)
+   at System.Web.Http.WebHost.Routing.HostedHttpRoute..ctor(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.WebHost.Routing.HostedHttpRouteCollection.CreateRoute(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.HttpRouteCollectionExtensions.MapHttpRoute(HttpRouteCollection routes, String name, String routeTemplate, Object defaults, Object constraints, HttpMessageHandler handler)
+   at Entaria.WebApiConfig.Register(HttpConfiguration config)
+   at Entaria.MvcApplication.Application_Start()
+
+</Data><Data>http://entariabob.azurewebsites.net/</Data><Data>/</Data><Data>87.192.234.103</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\entariabob</Data><Data>31</Data><Data>IIS APPPOOL\entariabob</Data><Data>False</Data><Data>   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-17T13:28:28Z"/><EventRecordID>1925046312</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>4/17/2014 1:28:28 PM</Data><Data>4/17/2014 1:28:28 PM</Data><Data>881d83e9f707487c80d430ca01b69661</Data><Data>4</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/253865321/ROOT-9-130422149057556723</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD00155D881AA4</Data><Data></Data><Data>3608</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\entariabob</Data><Data>HttpException</Data><Data>The route parameter name 'Number' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+The route parameter name 'Number' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.Routing.RouteParser.Parse(String routeUrl)
+   at System.Web.Mvc.RouteCollectionExtensions.MapRoute(RouteCollection routes, String name, String url, Object defaults, Object constraints, String[] namespaces)
+   at Entaria.RouteConfig.RegisterRoutes(RouteCollection routes)
+   at Entaria.MvcApplication.Application_Start()
+
+</Data><Data>http://entariabob.azurewebsites.net/</Data><Data>/</Data><Data>87.192.234.103</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\entariabob</Data><Data>85</Data><Data>IIS APPPOOL\entariabob</Data><Data>False</Data><Data>   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-17T13:47:48Z"/><EventRecordID>1926206578</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>4/17/2014 1:47:48 PM</Data><Data>4/17/2014 1:47:48 PM</Data><Data>d0552a0d6dfd4289bb76238f55c3c41f</Data><Data>4</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/253865321/ROOT-16-130422160661589863</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD00155D881AA4</Data><Data></Data><Data>3608</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\entariabob</Data><Data>HttpException</Data><Data>The route parameter name 'value' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+The route parameter name 'value' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.Routing.RouteParser.Parse(String routeUrl)
+   at System.Web.Http.WebHost.Routing.HostedHttpRoute..ctor(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.WebHost.Routing.HostedHttpRouteCollection.CreateRoute(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.HttpRouteCollectionExtensions.MapHttpRoute(HttpRouteCollection routes, String name, String routeTemplate, Object defaults, Object constraints, HttpMessageHandler handler)
+   at Entaria.WebApiConfig.Register(HttpConfiguration config)
+   at Entaria.MvcApplication.Application_Start()
+
+</Data><Data>http://entariabob.azurewebsites.net/</Data><Data>/</Data><Data>87.192.234.103</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\entariabob</Data><Data>80</Data><Data>IIS APPPOOL\entariabob</Data><Data>False</Data><Data>   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-17T14:41:27Z"/><EventRecordID>1929426046</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>4/17/2014 2:41:27 PM</Data><Data>4/17/2014 2:41:27 PM</Data><Data>756e15d89508471a8afeb9a9cfbdbc63</Data><Data>4</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/253865321/ROOT-8-130422192853231698</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD00155D881AA4</Data><Data></Data><Data>6744</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\entariabob</Data><Data>HttpException</Data><Data>There is an incomplete parameter in this path segment: '{action'. Check that each '{' character has a matching '}' character.
+Parameter name: routeUrl
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+There is an incomplete parameter in this path segment: '{action'. Check that each '{' character has a matching '}' character.
+Parameter name: routeUrl
+   at System.Web.Routing.RouteParser.Parse(String routeUrl)
+   at System.Web.Http.WebHost.Routing.HostedHttpRoute..ctor(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.WebHost.Routing.HostedHttpRouteCollection.CreateRoute(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.HttpRouteCollectionExtensions.MapHttpRoute(HttpRouteCollection routes, String name, String routeTemplate, Object defaults, Object constraints, HttpMessageHandler handler)
+   at Entaria.WebApiConfig.Register(HttpConfiguration config)
+   at Entaria.MvcApplication.Application_Start()
+
+</Data><Data>http://entariabob.azurewebsites.net/</Data><Data>/</Data><Data>87.192.234.103</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\entariabob</Data><Data>11</Data><Data>IIS APPPOOL\entariabob</Data><Data>False</Data><Data>   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-17T14:42:13Z"/><EventRecordID>1929471562</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>4/17/2014 2:42:13 PM</Data><Data>4/17/2014 2:42:13 PM</Data><Data>fcb8395cc8784414acc75ebd2d13d6d0</Data><Data>4</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/253865321/ROOT-9-130422193310467206</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD00155D881AA4</Data><Data></Data><Data>6744</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\entariabob</Data><Data>HttpException</Data><Data>There is an incomplete parameter in this path segment: '{action'. Check that each '{' character has a matching '}' character.
+Parameter name: routeUrl
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+There is an incomplete parameter in this path segment: '{action'. Check that each '{' character has a matching '}' character.
+Parameter name: routeUrl
+   at System.Web.Routing.RouteParser.Parse(String routeUrl)
+   at System.Web.Http.WebHost.Routing.HostedHttpRoute..ctor(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.WebHost.Routing.HostedHttpRouteCollection.CreateRoute(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.HttpRouteCollectionExtensions.MapHttpRoute(HttpRouteCollection routes, String name, String routeTemplate, Object defaults, Object constraints, HttpMessageHandler handler)
+   at Entaria.WebApiConfig.Register(HttpConfiguration config)
+   at Entaria.MvcApplication.Application_Start()
+
+</Data><Data>http://entariabob.azurewebsites.net/</Data><Data>/</Data><Data>87.192.234.103</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\entariabob</Data><Data>21</Data><Data>IIS APPPOOL\entariabob</Data><Data>False</Data><Data>   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-17T15:41:07Z"/><EventRecordID>1933005531</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>4/17/2014 3:41:07 PM</Data><Data>4/17/2014 3:41:07 PM</Data><Data>5ba22f6283794caead2a3c90f916d834</Data><Data>4</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/253865321/ROOT-33-130422228646565322</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD00155D881AA4</Data><Data></Data><Data>6744</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\entariabob</Data><Data>HttpException</Data><Data>The route parameter name 'value' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+The route parameter name 'value' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.Routing.RouteParser.Parse(String routeUrl)
+   at System.Web.Http.WebHost.Routing.HostedHttpRoute..ctor(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.WebHost.Routing.HostedHttpRouteCollection.CreateRoute(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.HttpRouteCollectionExtensions.MapHttpRoute(HttpRouteCollection routes, String name, String routeTemplate, Object defaults, Object constraints, HttpMessageHandler handler)
+   at Entaria.WebApiConfig.Register(HttpConfiguration config)
+   at Entaria.MvcApplication.Application_Start()
+
+</Data><Data>http://entariabob.azurewebsites.net/</Data><Data>/</Data><Data>87.192.234.103</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\entariabob</Data><Data>21</Data><Data>IIS APPPOOL\entariabob</Data><Data>False</Data><Data>   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-17T21:19:40Z"/><EventRecordID>1953318500</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>4/17/2014 9:19:40 PM</Data><Data>4/17/2014 9:19:40 PM</Data><Data>02e409cece294faf951a8bbfb0d3b2df</Data><Data>4</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/253865321/ROOT-14-130422431776899561</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD00155D881AA4</Data><Data></Data><Data>2296</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\entariabob</Data><Data>HttpException</Data><Data>The route parameter name 'value' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+The route parameter name 'value' appears more than one time in the URL.
+Parameter name: routeUrl
+   at System.Web.Routing.RouteParser.Parse(String routeUrl)
+   at System.Web.Http.WebHost.Routing.HostedHttpRoute..ctor(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.WebHost.Routing.HostedHttpRouteCollection.CreateRoute(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.HttpRouteCollectionExtensions.MapHttpRoute(HttpRouteCollection routes, String name, String routeTemplate, Object defaults, Object constraints, HttpMessageHandler handler)
+   at Entaria.WebApiConfig.Register(HttpConfiguration config)
+   at Entaria.MvcApplication.Application_Start()
+
+</Data><Data>http://entariabob.azurewebsites.net/</Data><Data>/</Data><Data>159.134.150.38</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\entariabob</Data><Data>7</Data><Data>IIS APPPOOL\entariabob</Data><Data>False</Data><Data>   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-18T07:41:52Z"/><EventRecordID>1990651765</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>4/18/2014 7:41:52 AM</Data><Data>4/18/2014 7:41:52 AM</Data><Data>c4bc1eb5687b4015bc0eb572183c8c74</Data><Data>4</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/253865321/ROOT-10-130422805102976447</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD00155D881AA4</Data><Data></Data><Data>1564</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\entariabob</Data><Data>HttpException</Data><Data>The route URL cannot start with a '/' or '~' character and it cannot contain a '?' character.
+Parameter name: routeUrl
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+The route URL cannot start with a '/' or '~' character and it cannot contain a '?' character.
+Parameter name: routeUrl
+   at System.Web.Routing.RouteParser.Parse(String routeUrl)
+   at System.Web.Http.WebHost.Routing.HostedHttpRoute..ctor(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.WebHost.Routing.HostedHttpRouteCollection.CreateRoute(String uriTemplate, IDictionary`2 defaults, IDictionary`2 constraints, IDictionary`2 dataTokens, HttpMessageHandler handler)
+   at System.Web.Http.HttpRouteCollectionExtensions.MapHttpRoute(HttpRouteCollection routes, String name, String routeTemplate, Object defaults, Object constraints, HttpMessageHandler handler)
+   at Entaria.WebApiConfig.Register(HttpConfiguration config)
+   at Entaria.MvcApplication.Application_Start()
+
+</Data><Data>http://entariabob.azurewebsites.net/</Data><Data>/</Data><Data>87.192.234.103</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\entariabob</Data><Data>6</Data><Data>IIS APPPOOL\entariabob</Data><Data>False</Data><Data>   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-18T08:05:30Z"/><EventRecordID>1992068984</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>4/18/2014 8:05:30 AM</Data><Data>4/18/2014 8:05:30 AM</Data><Data>8059110024ac4141b177e578e0a28173</Data><Data>4</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/253865321/ROOT-19-130422819273925614</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD00155D881AA4</Data><Data></Data><Data>1564</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\entariabob</Data><Data>HttpException</Data><Data>A route named 'ApigetCCB' is already in the route collection. Route names must be unique.
+Parameter name: name
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+A route named 'ApigetCCB' is already in the route collection. Route names must be unique.
+Parameter name: name
+   at System.Web.Routing.RouteCollection.Add(String name, RouteBase item)
+   at System.Web.Mvc.RouteCollectionExtensions.MapRoute(RouteCollection routes, String name, String url, Object defaults, Object constraints, String[] namespaces)
+   at Entaria.RouteConfig.RegisterRoutes(RouteCollection routes)
+   at Entaria.MvcApplication.Application_Start()
+
+</Data><Data>http://entariabob.azurewebsites.net/</Data><Data>/</Data><Data>87.192.234.103</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\entariabob</Data><Data>8</Data><Data>IIS APPPOOL\entariabob</Data><Data>False</Data><Data>   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+</Data></EventData></Event><Event><System><Provider Name="ASP.NET 4.0.30319.0"/><EventID>1309</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2014-04-18T08:06:08Z"/><EventRecordID>1992107562</EventRecordID><Channel>Application</Channel><Computer>RD00155D881AA4</Computer><Security/></System><EventData><Data>3005</Data><Data>An unhandled exception has occurred.</Data><Data>4/18/2014 8:06:08 AM</Data><Data>4/18/2014 8:06:08 AM</Data><Data>ea1f7b2c4e4143c88a33b96af805d7ac</Data><Data>4</Data><Data>1</Data><Data>0</Data><Data>/LM/W3SVC/253865321/ROOT-20-130422819659367053</Data><Data>Full</Data><Data>/</Data><Data>D:\home\site\wwwroot\</Data><Data>RD00155D881AA4</Data><Data></Data><Data>1564</Data><Data>w3wp.exe</Data><Data>IIS APPPOOL\entariabob</Data><Data>HttpException</Data><Data>A route named 'ApigetCCB' is already in the route collection. Route names must be unique.
+Parameter name: name
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+A route named 'ApigetCCB' is already in the route collection. Route names must be unique.
+Parameter name: name
+   at System.Web.Routing.RouteCollection.Add(String name, RouteBase item)
+   at System.Web.Mvc.RouteCollectionExtensions.MapRoute(RouteCollection routes, String name, String url, Object defaults, Object constraints, String[] namespaces)
+   at Entaria.RouteConfig.RegisterRoutes(RouteCollection routes)
+   at Entaria.MvcApplication.Application_Start()
+
+</Data><Data>http://entariabob.azurewebsites.net/</Data><Data>/</Data><Data>87.192.234.103</Data><Data></Data><Data>False</Data><Data></Data><Data>IIS APPPOOL\entariabob</Data><Data>12</Data><Data>IIS APPPOOL\entariabob</Data><Data>False</Data><Data>   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+</Data></EventData></Event></Events>
