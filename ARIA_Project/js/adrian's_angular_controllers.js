@@ -29,27 +29,33 @@ var SliderModule = angular.module('website', ['ngAnimate'])
 	var SpaModule = angular.module("spaApp", ['ngRoute'])
 	
 	// configure our routes
-	SpaModule.config(function($routeProvider) {
+	SpaModule.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 		$routeProvider
 
 			// route for the home page
 			.when('/', {
-				templateUrl : '/home.html',
+				templateUrl : 'partials/home.html',
 				controller  : 'spaController'
 			})
 
 			// route for the about page
 			.when('/about', {
-				templateUrl : '/about.html',
+				templateUrl : 'partials/about.html',
 				controller  : 'aboutController'
 			})
 
 			// route for the contact page
 			.when('/contact', {
-				templateUrl : '/contact.html',
+				templateUrl : 'partials/contact.html',
 				controller  : 'contactController'
 			});
-	});
+			
+			
+			// use the HTML5 History API
+		if(window.history && window.history.pushState){
+			$locationProvider.html5Mode(true);
+		  }
+	}]);
 
 	// create the controller and inject Angular's $scope
 	SpaModule.controller("spaController", function($scope) {
