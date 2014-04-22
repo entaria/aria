@@ -40,20 +40,20 @@
 
         // Use the angular forEach helper method to
         // loop through the services array:
-		
+
         angular.forEach($scope.balances, function(s){
             
                 total+= s.PointsBalance;
             
         });
-		
+
         return total;
     };
 
-	
 
 
-	
-	  
-	    
+
+
+
+
 }
