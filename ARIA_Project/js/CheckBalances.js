@@ -18,10 +18,10 @@
         }
 }); */
 
-
+    // /api/cws/ApigetCCB/77/6
 
        $http.get('http://entariabob.azurewebsites.net/api/ccb/GetClientCardBalances').then(function (result) {
-  //  $.get('http://entariaBOB.azurewebsites.net/api/ccb/GetClientCardBalances').then(function (result) {
+   //   $.get('http://entariaBOB.azurewebsites.net/api/cws/ApigetCCB/77/5').then(function (result) {
        //    http://entariabob.azurewebsites.net/api/ccb/GetClientCardBalances
         $scope.ClientCardBalances = result.data;
 

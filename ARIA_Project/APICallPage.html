@@ -23,9 +23,9 @@
             <h1>Current Balance</h1>
             <ul>
 
-                <li ng-repeat="balance in Balances" ng-click="toggleActive(balance)">
+                <li ng-repeat="ClientCardBalance in ClientCardBalances" ng-click="toggleActive(ClientCardBalance)">
 			<!-- display points balances for this particular user -->
-			{{balance.ClientId}} <span>{{balance.PointBalance}}</span>
+			{{ClientCardBalance.CardId}} <span>  {{ClientCardBalance.ClientCardBalanceId}} </span><span>{{ClientCardBalance.ClientId}}</span> <span>{{ClientCardBalance.PointsBalance}}</span>
 		</li>
                
 
