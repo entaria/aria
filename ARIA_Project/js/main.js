@@ -1,4 +1,4 @@
-var Jsroutines = (function() {
+var jsUtils = (function() {
     // Private stuff up here
 
     // Public methods here
@@ -30,8 +30,9 @@ var Jsroutines = (function() {
                     throw new Error ("Not a number");
                 }
                 return num - op;
-        }
-
+        }        
+     
     
     }
 }());
+

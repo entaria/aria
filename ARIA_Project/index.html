@@ -27,7 +27,6 @@
 		<script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
 		<!-- Brendan's Stuff  -->
         <link href="css/FeedEk.css" rel="stylesheet" type="text/css" />
 
@@ -44,7 +43,13 @@
         </style>
 		<script type="text/javascript"
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXMEss-vsF1qa8m75hh2pF1dMuu77Q1tk&sensor=false"></script>
+        <script src="js/main.js"></script>
+        <script src="js/init.js"></script>
+
+
 		<script>
+
+            /*        
 			function initialize() {
                 var myCenter = Array(10);
                 myCenter[0] = new google.maps.LatLng(53.349, -6.243); //NCI 
@@ -108,12 +113,14 @@
             }            
 
 			google.maps.event.addDomListener(window, 'load', initialize);
+            */
+
         </script>
         <!-- HXK CODE -->
 
 
     </head>
-    <body onload="initialize()">
+    <body onload="jsInit.initialize()">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
