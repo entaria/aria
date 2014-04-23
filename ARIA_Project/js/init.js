@@ -70,5 +70,8 @@ var jsInit = (function() {
     }
 }());
 
-google.maps.event.addDomListener(window, 'load', jsInit.initialize());
+$( document ).ready(function() { 
+    google.maps.event.addDomListener(window, 'load', jsInit.initialize());
+});
+
 
