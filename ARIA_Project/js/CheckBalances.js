@@ -51,8 +51,9 @@
   //              total+= s.PointsBalance;
   //              alert("Balance " + s.PointsBalance)
    //     });
-      //  alert("Total " + total);
-   return $scope.ClientCardBalances.PointsBalance;
+        //  alert("Total " + total);
+        var returdata = $scope.ClientCardBalances.PointsBalance
+          return returdata;
     };
 
 
