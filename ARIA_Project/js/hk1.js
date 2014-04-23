@@ -3,7 +3,7 @@ var jsUtils = (function() {
 
     // Public methods here
     return {
-       // method 1
+       // Generate QR Code
        generateQRcode: function(options) {  
             $('#qrcode').qrcode(options);
        },
