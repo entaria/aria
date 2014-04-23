@@ -19,10 +19,16 @@
 }); */
 
     // /api/cws/ApigetCCB/77/6
+$scope.CBs= [];
+$scope.CBs.push({ CardId: 0 });
+$scope.CBs.push({ PointsBalance: 0 });
+$scope.CBs.push({ ClinetId: 0 });
+$scope.CBs.push({ ClientCardBalanceId: 0 });
 
    //    $http.get('http://entariabob.azurewebsites.net/api/ccb/GetClientCardBalances').then(function (result) {
     $http.get('http://entariaBOB.azurewebsites.net/api/cws/ApigetCCB/77/5').then(function (result) {
        //    http://entariabob.azurewebsites.net/api/ccb/GetClientCardBalances
+       
         $scope.CBs = result.data;
 
 
