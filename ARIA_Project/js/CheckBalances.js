@@ -23,7 +23,10 @@
    //    $http.get('http://entariabob.azurewebsites.net/api/ccb/GetClientCardBalances').then(function (result) {
     $http.get('http://entariaBOB.azurewebsites.net/api/cws/ApigetCCB/77/5').then(function (result) {
        //    http://entariabob.azurewebsites.net/api/ccb/GetClientCardBalances
-        $scope.ClientCardBalances = result.data;
+        $scope.CBs = result.data;
+
+
+       
     //    var record = result.data;
       //  alert($scope.ClientCardBalances[1].PointsBalance + " " + $scope.ClientCardBalances[1].CardId);
           //   alert($scope.ClientCardBalances.PointsBalance + " " + $scope.ClientCardBalances.CardId);
@@ -52,8 +55,8 @@
   //              alert("Balance " + s.PointsBalance)
    //     });
         //  alert("Total " + total);
-        var returdata = $scope.ClientCardBalances.PointsBalance
-          return returdata;
+      var returdata = parseInt($scope.CBs.PointsBalance);
+      return returdata;
     };
 
 
