@@ -24,10 +24,9 @@
                     temp_c = parsed_json['current_observation']['temp_c'];
                     temp_f = parsed_json['current_observation']['temp_f'];
                     img_toDisplay = parsed_json['current_observation']['icon_url']
-                    $("#resultID").val(temp_f);   //display the Temperature
-                    $("#tempValue").val(temp_f);   //display the Temperature
-                    $('#imgresultID').attr('src', img_toDisplay);        // change the weather Icon
-
+                    $("#resultID").text(temp_c);   //display the Temperature
+                    $("#tempValue").text(temp_c);   //display the Temperature
+                    $('#imgresultID').attr('src', img_toDisplay);        // change the weather Icon                    
                     
                 }
             });
