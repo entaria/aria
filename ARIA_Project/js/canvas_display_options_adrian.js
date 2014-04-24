@@ -1,8 +1,8 @@
 $( document ).ready(function() { 
 
 					
-
-					var localData = JSON.stringify(sales);
+					  // This generates a local storage file
+					  var localData = JSON.stringify(sales);
 					  window.localStorage.setItem('SalesData', localData);
 
 					  var localData = JSON.parse(window.localStorage.getItem('SalesData'));
@@ -17,6 +17,17 @@ $( document ).ready(function() {
 					  );
 					   
 					  });
+					  
+					  CanvasJS.addColorSet("greenShades",
+							 [//colorSet Array
+							 "#00010D",
+							 "brown",
+							 "#FFBB55",
+							 "#FFFAB9",
+							 "#FFF60D",
+							 "#BA8300",
+							 "#75C8FF"
+							]);
 					
 					
 			  $("#doughnut").click(function doughnutChart() {
@@ -25,7 +36,7 @@ $( document ).ready(function() {
 
 
 					  var chart = new CanvasJS.Chart("chartContainer", {
-					  theme: "theme2",//theme1
+					  colorSet: "greenShades",
 					  title: {
 					  text: "Basic Column Chart - CanvasJS"
 					  },
@@ -44,10 +55,8 @@ $( document ).ready(function() {
 			  
 			  $("#pie").click(function doughnutChart() {
 				  var chart = new CanvasJS.Chart("chartContainer", {
-					  animationEnabled: false,
-					  interactivityEnabled: false,
 					  
-					  theme: "theme2",//theme1
+					  colorSet: "greenShades",
 					  title:{
 						  text: "Basic Column Chart - CanvasJS"              
 					 },
@@ -66,10 +75,8 @@ $( document ).ready(function() {
 			  
 			  $("#column").click(function doughnutChart() {
 				  var chart = new CanvasJS.Chart("chartContainer", {
-					  animationEnabled: false,
-					  interactivityEnabled: false,
 					  
-					  theme: "theme2",//theme1
+					  colorSet: "greenShades",
 					  title:{
 						  text: "Basic Column Chart - CanvasJS"              
 					 },
@@ -88,10 +95,8 @@ $( document ).ready(function() {
 			  
 			  $("#line").click(function doughnutChart() {
 				  var chart = new CanvasJS.Chart("chartContainer", {
-					  animationEnabled: false,
-					  interactivityEnabled: false,
 					  
-					  theme: "theme2",//theme1
+					  colorSet: "greenShades",
 					  title:{
 						  text: "Basic Column Chart - CanvasJS"              
 					 },
@@ -108,19 +113,17 @@ $( document ).ready(function() {
 				  
 			  });
 			  
-			  $("#bubble").click(function doughnutChart() {
+			  $("#area").click(function doughnutChart() {
 				  var chart = new CanvasJS.Chart("chartContainer", {
-					  animationEnabled: false,
-					  interactivityEnabled: false,
 					  
-					  theme: "theme2",//theme1
+					  colorSet: "greenShades",
 					  title:{
 						  text: "Basic Column Chart - CanvasJS"              
 					 },
 					  data: [              
 					  {
 		// Change type to "bar", "splineArea", "area", "spline", "pie",etc.
-						  type: "bubble",
+						  type: "area",
 						  dataPoints: datapoints
 					  }
 					  ]
@@ -132,10 +135,8 @@ $( document ).ready(function() {
 			  
 			  $("#bar").click(function doughnutChart() {
 				  var chart = new CanvasJS.Chart("chartContainer", {
-					  animationEnabled: false,
-					  interactivityEnabled: false,
 					  
-					  theme: "theme2",//theme1
+					  colorSet: "greenShades",
 					  title:{
 						  text: "Basic Column Chart - CanvasJS"              
 					 },
