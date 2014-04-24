@@ -73,8 +73,6 @@ var jsInit = (function() {
 $( document ).ready(function() { 
     google.maps.event.addDomListener(window, 'load', jsInit.initialize());
 	
-	getSalesData();
-
     // AddThis Smart Layers BEGIN
     // Go to http://www.addthis.com/get/smart-layers to customize -->
     addthis.layers({
@@ -84,6 +82,8 @@ $( document ).ready(function() {
                 'numPreferredServices' : 5
             }   
     });
+
+	getSalesData();
         
 });
 
