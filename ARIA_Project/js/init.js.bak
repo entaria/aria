@@ -74,17 +74,6 @@ $( document ).ready(function() {
     google.maps.event.addDomListener(window, 'load', jsInit.initialize());
 	
 	getSalesData();
-
-    // AddThis Smart Layers BEGIN
-    // Go to http://www.addthis.com/get/smart-layers to customize -->
-    addthis.layers({
-            'theme' : 'transparent',
-            'share' : {
-                'position' : 'right',
-                'numPreferredServices' : 5
-            }   
-    });
-        
 });
 
 
