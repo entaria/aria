@@ -4,11 +4,10 @@ return{
 
 	getSalesData: function() {
 
-		alert("Hello");
+		//alert("Hello");
 	
 	var json = { Items : [ 
 
-		 
 					{ "label":"Americano" , "y":199 }, 
 					{ "label":"Latte" , "y":199 },
 					{ "label":"Mocha" , "y":234 },

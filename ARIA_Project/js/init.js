@@ -97,7 +97,7 @@ $( document ).ready(function() {
     getLocation();
     
     // Sales data from browser local service (HTML5 Web services)    
-	getSalesData();
+	Sales.getSalesData();
     
         
 });
