@@ -73,8 +73,8 @@ var jsInit = (function() {
 $( document ).ready(function() { 
     google.maps.event.addDomListener(window, 'load', jsInit.initialize());
 	
-    // AddThis Smart Layers BEGIN
-    // Go to http://www.addthis.com/get/smart-layers to customize -->
+    // AddThis Smart Layers
+    // Go to http://www.addthis.com/get/smart-layers to customize
     addthis.layers({
             'theme' : 'transparent',
             'share' : {
@@ -83,7 +83,20 @@ $( document ).ready(function() {
             }   
     });
 
+
+    //QR Code functions
+    //jQuery('#output').generateQRcode("hello world hello world");
+    jQuery(function(){
+            jQuery('#output').qrcode({
+            render	: "table",
+            text	: "http://www.ncirl.ie"
+            });
+    })
+
+    
+    // Sales data from browser local service (HTML5 Web services)    
 	getSalesData();
+    
         
 });
 
