@@ -44,5 +44,3 @@ var jsUtils = (function() {
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-42936379-2');ga('send','pageview');
 
-
-
