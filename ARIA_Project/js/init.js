@@ -72,6 +72,8 @@ var jsInit = (function() {
 
 $( document ).ready(function() { 
     google.maps.event.addDomListener(window, 'load', jsInit.initialize());
+	
+	getSalesData();
 });
 
 

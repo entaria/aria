@@ -34,27 +34,26 @@ var SliderModule = angular.module('website', ['ngAnimate'])
 
 			// route for the home page
 			.when('/', {
-				templateUrl : 'partials/home.html',
+				templateUrl : '/home.html',
 				controller  : 'spaController'
 			})
 
 			// route for the about page
 			.when('/about', {
-				templateUrl : 'partials/about.html',
+				templateUrl : '/about.html',
 				controller  : 'aboutController'
 			})
 
 			// route for the contact page
 			.when('/contact', {
-				templateUrl : 'partials/contact.html',
+				templateUrl : '/contact.html',
 				controller  : 'contactController'
 			});
 			
 			
 			// use the HTML5 History API
-		if(window.history && window.history.pushState){
-			$locationProvider.html5Mode(true);
-		  }
+		
+			$locationProvider.html5Mode(true)
 	}]);
 
 	// create the controller and inject Angular's $scope

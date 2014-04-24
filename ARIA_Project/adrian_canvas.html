@@ -32,6 +32,10 @@
 		<!-- Brendan's Stuff  -->
         <link href="css/FeedEk.css" rel="stylesheet" type="text/css" />
 
+		
+		<script src="Sales.js"></script>
+		<script src="js/createLocalStore.js"></script>
+		
         <!--        
 		<base href="/Users/ADRIAN/Desktop/Masters/aria/ARIA_Project/index.html">
         -->
@@ -112,8 +116,8 @@
         </script>
         <!-- HXK CODE -->
 
+		<!-- Adrian's canvas example -->
 		<script type="text/javascript" src="js/vendor/canvasjs.min.js"></script>
-		
 		<script type="text/javascript" src="js/canvas_display_options_adrian.js"></script>
 
     </head>
@@ -237,18 +241,22 @@
           <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
           </div>
 
-          <div ng-app="spaApp" ng-controller="spaController" id="main" class="col-md-8"   >
+          <div  class="col-md-8"   >
 			  <h3>Main Content</h3>
 			  
 			  <div ng-view></div>
-			  <button id="doughnut" >Doughnut</button>
-			  <button id="pie" >Pie</button>
-			  <button id="column" >Column</button>
+			  <button type="button" class="btn btn-default" id="doughnut" >Doughnut</button>
+			  <button type="button" class="btn btn-default" id="pie" >Pie</button>
+			  <button type="button" class="btn btn-default" id="column" >Column</button>
+			  <button type="button" class="btn btn-default" id="line" >Line</button>
+			  <button type="button" class="btn btn-default" id="bubble" >Bubble</button>
+			  <button type="button" class="btn btn-default" id="bar" >Bar</button>
+			  
 			  <div id="chartContainer" style="height: 300px; width: 100%;">
 					
 			   </div>
 			  
-			  <p> {{ greeting }} </p>
+			  <p ng-app="spaApp" ng-controller="spaController" id="main"> {{ greeting }} </p>
 		   </div>
 		   <div class="col-md-2">
 			  <img src="img/advert.jpg" width="160px" height="600px" />
@@ -265,13 +273,13 @@
       </div>
 
 	 </div>
-     
+        <script src="js/angular-controllers.js"></script>
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 		<script src="js/vendor/bootstrap.min.js"></script>
-		<script src="js/angular-controllers.js"></script>
+		
 
 
 
