@@ -30,11 +30,11 @@ var jsUtils = (function() {
                     throw new Error ("Not a number");
                 }
                 return num - op;
-        }        
-     
+        }     
     
     }
 }());
+
 
 //Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -44,3 +44,90 @@ var jsUtils = (function() {
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-42936379-2');ga('send','pageview');
 
+            
+// Geolocation code
+var x = document.getElementById("geo-location-holder");
+function getLocation()
+{
+  if (navigator.geolocation)
+    {
+    navigator.geolocation.getCurrentPosition(showPosition,showError);
+    }
+  else
+  {
+    x.innerHTML="Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position)
+{
+  var latlon=position.coords.latitude+","+position.coords.longitude;
+
+  /* var img_url="http://maps.googleapis.com/maps/api/staticmap?center="
+  +latlon+"&zoom=14&size=400x300&sensor=false";
+  x.innerHTML="<img src='"+img_url+"'>";
+  */
+  x.innerHTML=latlon;
+  
+}
+
+function showError(error)
+{
+  switch(error.code) 
+    {
+    case error.PERMISSION_DENIED:
+      x.innerHTML="User denied the request for Geolocation."
+      break;
+    case error.POSITION_UNAVAILABLE:
+      x.innerHTML="Location information is unavailable."
+      break;
+    case error.TIMEOUT:
+      x.innerHTML="The request to get user location timed out."
+      break;
+    case error.UNKNOWN_ERROR:
+      x.innerHTML="An unknown error occurred."
+      break;
+    }
+}
+
+
+            
+            
+            
+            
+// -------------  KNOCKOUTJS ----------------------------
+// Use KnockoutJS and SammyJS for menu bar
+// KnockoutJS uses a viewmodel concept
+function WebViewModel() {
+    var self = this;
+    self.currview = ko.observable();
+    // set up menu bar items
+    self.views = (["Home", "About", "Contact"]);
+    self.show_Home = ko.computed(function() {
+        return self.currview() === "Home" ? true : false;
+    });
+    self.show_About = ko.computed(function() {
+        return self.currview() === "About" ? true : false;
+    });
+    self.show_Contact = ko.computed(function() {
+        return self.currview() === "Contact" ? true : false;
+    });
+}
+
+var wvm = new WebViewModel();
+
+// Activates knockout.js
+ko.applyBindings(wvm);
+
+//------- HASH BASED NAVIGATION -----------------------
+// Client-side routes
+Sammy(function() {
+    /*
+     *  "#:view" means that sammy takes whatever is after the hash tag
+     *  and applies it to the value of "this.params.view"
+     */
+    this.get('#:view', function() {
+        //Set currview on your view model
+        wvm.currview(this.params.view);
+    });
+}).run('#Home'); //run 'Home' page as default

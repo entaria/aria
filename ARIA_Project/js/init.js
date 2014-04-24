@@ -93,6 +93,8 @@ $( document ).ready(function() {
             });
     })
 
+    //get geolocation
+    getLocation();
     
     // Sales data from browser local service (HTML5 Web services)    
 	getSalesData();
