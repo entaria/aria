@@ -4,6 +4,10 @@
 <head>
     <meta charset="utf-8">
     <title>untitled</title>
+	
+	
+	<script src="js/vendor/jquery-1.10.2.min.js"></script>
+	
 </head>
 <body>
     <form action="" method="get">
@@ -25,7 +29,27 @@
 		<label for="passwordConfirm">Confirm Password:</label>
 		<input id="passwordConfirm" name="passwordConfirm" type="password" />
  
-        <button type="submit"> Submit Form </button>
+        <button id="submit" type="submit"> Submit Form </button>
+		
+		
     </form>
-</body>
+
+	<script>
+    $("#submit").click(function myFunction() {
+        var pass1 = document.getElementById("password").value;
+        var pass2 = document.getElementById("passwordConfirm").value;
+        if (pass1 != pass2) {
+            alert("Passwords Do not match");
+            document.getElementById("password").style.borderColor = "#E34234";
+            document.getElementById("passwordConfirm").style.borderColor = "#E34234";
+        }
+        else if (pass1 || pass2 == null) {
+            alert("Please enter a password and confirm");
+        }else{
+			alert("Passwords match");
+		}
+    });
+</script>
+	
+	</body>
 </html>

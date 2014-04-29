@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+
+
+<html>
+
+
+  <head lang="en" data-framework="angularjs">
+
+  <link rel ="stylesheet" type ="text/css" href="css/angular.css" />
+  <link rel ="stylesheet" type ="text/css" href="css/angular2.css" />
+  <script src = "js/vendor/angular.min.js"></script> 
+  <script src="js/vendor/jquery-1.10.2.min.js"></script>
+  <!-- <script src = "js/CheckBalances.js"></script> -->
+  <script src = "js/postdata.js"></script>
+  </head>
+
+  <body>
+
+  <form ng-app ng-controller="APICallController">
+
+
+  <h1>Current Balance</h1>
+  <ul>
+
+  <!-- <li ng-repeat="ClientCardBalance in CBs" >
+   
+ 	 display points balances for this particular user
+ {{ClientCardBalance.CardId}} <span> {{ClientCardBalance.ClientCardBalanceId}} </span><span>{{ClientCardBalance.ClientId}}</span> <span>{{ClientCardBalance.PointsBalance}}</span>
+  
+  {{CBs.CardId}} <span> {{CBs.ClientCardBalanceId}} </span><span>{{CBs.ClientId}}</span> <span>{{CBs.PointsBalance}}</span>
+
+  </li> -->
+   
+
+  </ul>
+  <div class="total">
+
+
+  Total: <span>{{Balance()}}</span> 
+  </div>
+
+  </form>
+   
+ 	 <label for="firstname">Firstname:</label>
+ 	<input id="firstname" name="firstname" type="text" />
+ 	 
+ 	<label for="secondname">Lastname:</label>
+ 	<input id="surname" name="secondname" type="text" />
+  
+  <label for="email">Email:</label>
+  <input id="email" name="email" type="email" />
+ 	 
+ 	<label for="tel">Telephone:</label>
+ 	<input id="telephone" name="telephone" type="tel" />
+ <button type="submit" id ="postbutton"> Submit Form </button>
+   
+  </body>
+</html>

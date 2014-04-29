@@ -17,6 +17,7 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<!-- Custom styles for this template -->
 		<link href="css/justified-nav.css" rel="stylesheet">
+		<link href="css/cube.css" rel="stylesheet">
 		<!-- <link href="css/jumbotron-narrow.css" rel="stylesheet"> -->
 		
 		<script src="js/vendor/angular.min.js"></script>
@@ -63,7 +64,29 @@
       <div class="masthead">
 		<div class="navbar-collapse collapse">
           <form class="navbar-form navbar-left" role="form">
-			<img src="img/EntariaLogo.JPG" width="95px" height="107px" />
+			<!-- Can push over by columns -->
+			<div class="rotatingcube">
+				<!-- The cube  displays Team Emblems -->
+			  
+				<div class="cube-wrap">
+					<div class="cube depth">
+						<div class="front-pane">
+
+						  <img  id ="v8front" src ="img\EntariaLogo.JPG" width="95px" height="107px" /> 
+						</div>
+						<div class="back-pane"><img src ="img\leap_card.JPG" width="95px" height="107px"/></div>
+						<div class="top-pane"><img src ="img\EntariaLogo.JPG" width="95px" height="107px" /></div>
+						<div  class="bottom-pane"><img id="btmpnl" src ="img\EntariaLogo.JPG" width="95px" height="107px"/>
+
+
+						</div>
+					<!--	<div class="left-pane"><img src ="img\v8front.PNG" /></div>
+						<div class="right-pane"><img src ="img\v8rear.PNG" /></div> -->
+						<div class="left-pane"><img src ="img\coffee_cup.png" width="95px" height="107px"  /></div>
+						<div class="right-pane"><img src ="img\coffee_beans.JPG" width="95px" height="107px"/></div>
+					</div>
+				</div>
+				</div>
 		  </form>
           <div id="weather">
           
