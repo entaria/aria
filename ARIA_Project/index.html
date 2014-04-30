@@ -52,6 +52,8 @@
 		<!-- Adrian's canvas example -->
 		<script type="text/javascript" src="js/vendor/canvasjs.min.js"></script>
 		<script type="text/javascript" src="js/canvas_display_options_adrian.js"></script>
+		
+		<script src = "js/postdata.js"></script>
 
     </head>
     <!--     <body onload="initialize()"> -->
@@ -222,19 +224,41 @@
 	  <!-------------------------------------------------------------------->
 	  <div id="About" data-bind="visible: show_About">
           <h2>About</h2>
+		  
+		  <div id="output"></div>
       </div>
 
 
       <!-------------------------------------------------------------------->
 	  <!-- PAGE 3: Contact Page -------------------------------------------->
 	  <!-------------------------------------------------------------------->
-	  <div id="Contact" data-bind="visible: show_Contact">
-          <h2>Contact</h2>
-      </div>
+	  <div id="Contact" class="formLayout" data-bind="visible: show_Contact">
+       <h2>Contact</h2>
+		  
+		<label for="firstname">Firstname:</label>
+		<input id="firstname" name="firstname" type="text" />
+		 <br />
+		<label for="secondname">Lastname:</label>
+		<input id="surname" name="secondname" type="text" />
+	     <br />
+	    <label for="email">Email:</label>
+	    <input id="email" name="email" type="email" />
+		 <br />
+		<label for="tel">Telephone:</label>
+		<input id="telephone" name="telephone" type="tel" />
+	      <br />
+		  <label for="password">Password:</label>
+		<input id="password" name="password" type="password" />
+		 <br />
+		<label for="passwordConfirm">Confirm Password:</label>
+		<input id="passwordConfirm" name="passwordConfirm" type="password" />
+		<br />
+		<button type="submit" id ="postbutton"> Submit Form </button>
+	  </div>
       
       
 	  <!-- QR CODE -->	
-	  <div id="output"></div>
+	  <!-- <div id="output"></div> -->
       
       <div class="footer">		
 			<p>&copy; Entaria 2014</p>

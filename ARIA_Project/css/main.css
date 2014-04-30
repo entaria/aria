@@ -303,6 +303,8 @@ textarea {
     }
 }
 
+/* Slider Layout */
+
 .container-slider{
 	position: relative;
 	max-width: 73.68%;
@@ -329,3 +331,27 @@ textarea {
 	top: 40%;
 	right: 0%;
 }
+
+/*Form Layout */
+
+.formLayout
+    {
+        background-color: #f3f3f3;
+        border: solid 1px #a1a1a1;
+        padding: 10px;
+        width: 300px;
+    }
+    
+    .formLayout label, .formLayout input
+    {
+        display: block;
+        width: 120px;
+        float: left;
+        margin-bottom: 10px;
+    }
+ 
+    .formLayout label
+    {
+        text-align: right;
+        padding-right: 20px;
+    }
