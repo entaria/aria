@@ -53,7 +53,7 @@
 		<script type="text/javascript" src="js/vendor/canvasjs.min.js"></script>
 		<script type="text/javascript" src="js/canvas_display_options_adrian.js"></script>
 		
-		<!-- <script type="text/javascript" src="js/createController.js"></script> -->
+		<script type="text/javascript" src="js/createController.js"></script>
 		
 		<script src = "js/postdata.js"></script>
 
@@ -93,13 +93,25 @@
 				</div>
 		  </form>
           <div id="weather">
-          
-            <table><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-                   <h2><tr><td>Temperature in Dublin is &nbsp;</td><td><div class="value" id="tempValue"></div><td>°C</td></tr></h2>
-                   <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-            </table>
-            <div id="imgresultID" type="image" src="http://icons-ak.wxug.com/i/c/k/cloudy.gif"></div>
-          </div>
+
+              <table>
+                  <tr>
+                      <td>
+							<h3>The Temperature  is :- </h3>
+                           <td><h4><div id="resultID"></div><td><div>&deg;F</div></td></h4></td>
+                      </td> 
+                        
+                      <td>
+                        
+
+                 <input id="imgresultID" type="image" src="http://icons-ak.wxug.com/i/c/k/cloudy.gif"/>
+                      </td>
+                  </tr>
+              </table>
+
+
+                     
+</div>
           <form class="navbar-form navbar-right" role="form">
             <div class="form-group">
               <input type="text" placeholder="Email" class="form-control">
@@ -114,7 +126,7 @@
 
         <!-- KNOCKOUTJS AND SAMMYJS SINGLE PAGE NAVIGATION -->
 		<div id="aria-navbar"></div>
-        <ul class="nav nav-justified" data-bind="foreach:views">
+        <ul ng-controller="NavCtrl" class="nav nav-justified" data-bind="foreach:views">
 			<li data-bind="css: {active: $root.currview() == $data}">
 				<a  data-bind="text:$data, attr:{href:'#' + $data}"></a>
 			</li>
@@ -211,7 +223,7 @@
 			  
 		   </div>
 		   <div class="col-md-2">
-			  <img src="img/advert.jpg" width="160px" height="600px" />
+			  <img src="img/fair_trade.gif" width="160px" height="600px" />
           </div>
 
 	      <br />
@@ -252,9 +264,6 @@
 		  <label for="password">Password:</label>
 		<input id="password" name="password" type="password" />
 		 <br />
-		<label for="passwordConfirm">Confirm Password:</label>
-		<input id="passwordConfirm" name="passwordConfirm" type="password" />
-		<br />
 		<button type="submit" id ="postbutton"> Submit Form </button>
 	  </div>
       

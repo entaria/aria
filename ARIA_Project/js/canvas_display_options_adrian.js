@@ -28,6 +28,21 @@ $( document ).ready(function() {
 							 "#BA8300",
 							 "#75C8FF"
 							]);
+							
+							var chart = new CanvasJS.Chart("chartContainer", {
+					  colorSet: "greenShades",
+					  title: {
+					  text: "Basic Column Chart - CanvasJS"
+					  },
+					  data: [
+					  {
+					  // Change type to "bar", "splineArea", "area", "spline", "pie",etc.
+					  type: "doughnut",
+					  dataPoints: datapoints
+					  }
+					  ]
+					  });	
+				  chart.render();
 					
 					
 			  $("#doughnut").click(function doughnutChart() {
@@ -152,5 +167,7 @@ $( document ).ready(function() {
 				  chart.render();
 				  
 			  });
+			  
+			  
 			  
 			  });

@@ -1,4 +1,4 @@
-app.controller('NavCtrl', function($scope, $location) {
+angular.controller('NavCtrl', function($scope, $location) {
     $scope.isActive = function(route) {
         return route === $location.path();
     };

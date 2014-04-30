@@ -25,6 +25,8 @@ var SliderModule = angular.module('website', ['ngAnimate'])
         };
     });
 	
+	
+	
 	// create the module and name it scotchApp
 	var SpaModule = angular.module("spaApp", ['ngRoute'])
 	

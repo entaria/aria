@@ -23,7 +23,7 @@ $(document).ready(function () {
         var ln = $('#surname').val();
         var em = $('#email').val();
         var ph = $('#telephone').val();
-        alert("Fiestadsdsd " + fn);
+		var pw = $('#password').val();
         cardholderdetails = [];
         cardholderdetails.push(
             { CardHolderDetailsId:0, FirstName: fn, LastName: ln, EmailAddress: em, PhoneNo: ph }
