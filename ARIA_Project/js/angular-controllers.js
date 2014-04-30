@@ -25,52 +25,6 @@ var SliderModule = angular.module('website', ['ngAnimate'])
         };
     });
 	
-	// create the module and name it scotchApp
-	var SpaModule = angular.module("spaApp", ['ngRoute'])
-	
-	// configure our routes
-	SpaModule.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
-		$routeProvider
-
-			// route for the home page
-			.when('/', {
-				templateUrl : '/home.html',
-				controller  : 'spaController'
-			})
-
-			// route for the about page
-			.when('/about', {
-				templateUrl : '/about.html',
-				controller  : 'aboutController'
-			})
-
-			// route for the contact page
-			.when('/contact', {
-				templateUrl : '/contact.html',
-				controller  : 'contactController'
-			});
-			
-			
-			// use the HTML5 History API
-		
-			$locationProvider.html5Mode(true)
-	}]);
-
-	// create the controller and inject Angular's $scope
-	SpaModule.controller("spaController", function($scope) {
-                    $scope.greeting = "How do you like them apples?";
-                }
-            );
-			
-	SpaModule.controller('aboutController', function($scope) {
-		$scope.greeting = 'Look! I am an about page.';
-	});
-
-	SpaModule.controller('contactController', function($scope) {
-		$scope.greeting = 'Contact us! JK. This is just a demo.';
-	});
-
-	angular.bootstrap(document.getElementById("main"),["spaApp"]);
 
 	
 	

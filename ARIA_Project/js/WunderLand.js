@@ -26,8 +26,8 @@
                     img_toDisplay = parsed_json['current_observation']['icon_url']
                     $("#resultID").text(temp_c);   //display the Temperature
                     $("#tempValue").text(temp_c);   //display the Temperature
-                    $('#imgresultID').attr('src', img_toDisplay);        // change the weather Icon                    
-                    
+                    $('#imgresultID').attr('src', img_toDisplay);        // change the weather Icon
+					$('#imgresultID2').attr('src', img_toDisplay);
                 }
             });
         });
