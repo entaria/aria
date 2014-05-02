@@ -28,6 +28,8 @@ $(document).ready(function () {
         cardholderdetails.push(
             { CardHolderDetailsId:0, FirstName: fn, LastName: ln, EmailAddress: em, PhoneNo: ph }
             );
+			
+		
 
    //     alert("Posting " + cardholderdetails[0].FirstName + "  " + cardholderdetails[0].LastName + "  " + cardholderdetails[0].EmailAddress + "  " + cardholderdetails[0].PhoneNo);
         var ok = null;
@@ -42,6 +44,8 @@ $(document).ready(function () {
         dataType: "JSON"
     });
  //   alert("after Posting " + cardholderdetails[0].FirstName + "  " + cardholderdetails[0].LastName + "  " + cardholderdetails[0].EmailAddress + "  " + cardholderdetails[0].PhoneNo);
-
+		document.getElementById("Contact").reload
     });
+	
+		
 });
