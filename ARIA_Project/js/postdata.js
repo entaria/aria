@@ -44,7 +44,7 @@ $(document).ready(function () {
         dataType: "JSON"
     });
  //   alert("after Posting " + cardholderdetails[0].FirstName + "  " + cardholderdetails[0].LastName + "  " + cardholderdetails[0].EmailAddress + "  " + cardholderdetails[0].PhoneNo);
-		document.getElementById("Contact").reload
+		window.location.reload();
     });
 	
 		
