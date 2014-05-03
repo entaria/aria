@@ -1,4 +1,4 @@
-describe('NavCtrl', function() {
+describe("NavCtrl", function() {
     var $scope, $location, $rootScope, createController;
 
     beforeEach(inject(function($injector) {
@@ -20,6 +20,7 @@ describe('NavCtrl', function() {
         $location.path('/about');
         expect($location.path()).toBe('/about');
         expect($scope.isActive('/about')).toBe(true);
-        expect($scope.isActive('/contact')).toBe(false);
+        expect($scope.isActive('/contact')).toBe(true);
+        expect($scope.isActive('/student')).toBe(false);
     });
 });
